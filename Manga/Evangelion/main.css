@@ -1,0 +1,35 @@
+body{
+    background-color: black;
+    margin: 0;
+    width: 240px;
+    padding: 50px;
+}
+
+/* Customizing the scrollbar track (background) */
+::-webkit-scrollbar {
+    width: 10px; /* width of the entire scrollbar */
+}
+
+/* Customizing the scrollbar handle */
+::-webkit-scrollbar-thumb {
+    background: grey; /* color of the scrollbar thumb */
+    border-radius: 5px; /* rounded corners on the scrollbar thumb */
+}
+
+/* Customizing the scrollbar thumb hover effect */
+::-webkit-scrollbar-thumb:hover {
+    background: green; /* color when hovering over the scrollbar thumb */
+}
+
+div{
+    display: block;
+    margin-left: 900px;
+}
+
+img{
+    height: 1200px;
+}
+
+.Page5{
+    margin-left: -400px; 
+}
