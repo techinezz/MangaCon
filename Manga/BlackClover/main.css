@@ -1,0 +1,33 @@
+body{
+    background-color: black;
+    margin: 0;
+    width: 240px;
+    padding: 50px;
+}
+
+::-webkit-scrollbar {
+    width: 10px; 
+}
+
+::-webkit-scrollbar-thumb {
+    background: grey; 
+    border-radius: 5px; 
+}
+
+
+::-webkit-scrollbar-thumb:hover {
+    background: green;
+}
+
+div{
+    display: block;
+    margin-left: 900px;
+}
+
+img{
+    height: 1200px;
+}
+
+.Pagewidth{
+    margin-left: -400px; 
+}
